@@ -22,9 +22,4 @@ public class Node {
     public void setNext(Node next) {
         this.next = next;
     }
-
-    public Node(double data, Node next) {
-        this.data = data;
-        this.next = next;
-    }
 }
