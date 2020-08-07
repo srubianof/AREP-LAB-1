@@ -20,7 +20,7 @@ public class LinkedList {
         this.tail = tail;
     }
 
-    public static void printLinkedList(Node node) {
+    public void printLinkedList(Node node) {
         if (node == null) {
             return;
         } else {
