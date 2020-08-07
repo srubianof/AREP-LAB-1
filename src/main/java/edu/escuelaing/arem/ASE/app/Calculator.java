@@ -1,7 +1,16 @@
 package edu.escuelaing.arem.ASE.app;
 
+/**
+ * @author Santiago R.
+ */
 public class Calculator {
 
+    /**
+     * Calculates the mean given a set of decimals
+     *
+     * @param linkedList LinkedList with a set of decimals
+     * @return calculated mean for the given set.
+     */
     public double calculateMean(LinkedList linkedList) {
         double mean = 0;
         double sum = 0;
@@ -17,6 +26,12 @@ public class Calculator {
         return mean;
     }
 
+    /**
+     * Calculates the standard deviation given a set of decimals
+     *
+     * @param linkedList LinkedList with a set of decimals
+     * @return calculated standard deviation for the given set.
+     */
     public double calculateStantardDeviation(LinkedList linkedList) {
         double mean = calculateMean(linkedList);
 //        System.out.println(mean);
