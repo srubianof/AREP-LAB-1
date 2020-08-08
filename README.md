@@ -3,10 +3,10 @@ The project calculates the mean an standard deviation of a set of n real numbers
 In here the use of a linked list is required thus a custom linked list is implemented.
 GitFlow was used to maintain a well organized workflow within a Git repository. 
 
-##Getting Started
+## Getting Started
 The following steps are required to successfully execute the project.
 
-###Prerequisites
+### Prerequisites
 You need the following thing to successfully run the project:
 
 * Java recommended Java 8
@@ -43,6 +43,6 @@ Thanks to the use of GitFlow you can find the releases made [here](https://githu
 
 **Santiago Rubiano Fierro** Software Engineering Student
 
-###License
+### License
 
  This project is licensed by the MIT License, for further details please refer to the license [here](https://github.com/srubianof/AREP-LAB-1/blob/master/LICENSE).
