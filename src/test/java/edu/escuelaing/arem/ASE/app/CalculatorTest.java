@@ -5,6 +5,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * @author Santiago R.
+ */
 public class CalculatorTest {
     public Calculator calculator;
     public double[] set1 = {160, 591, 114, 229, 230, 270, 128, 1657, 624, 1503};
@@ -17,6 +20,9 @@ public class CalculatorTest {
     public LinkedList linkedSet1, linkedSet2, linkedSet3, linkedSet4, linkedSet5, linkedSet6;
 
 
+    /**
+     * Initialize the environment so the tests can be executed
+     */
     @Before
     public void createLinkedListsAndCal() {
         calculator = new Calculator();
@@ -46,6 +52,9 @@ public class CalculatorTest {
         }
     }
 
+    /**
+     * Given a set of data the method should calculate the correct mean.
+     */
     @Test
     public void shouldCalculateMean(){
         Assert.assertEquals(550.6, calculator.calculateMean(linkedSet1),0);
@@ -55,6 +64,10 @@ public class CalculatorTest {
         Assert.assertEquals(30.3, calculator.calculateMean(linkedSet5),0);
         Assert.assertEquals(637.1, calculator.calculateMean(linkedSet6),0);
     }
+
+    /**
+     * Given a set of data the method should calculate the correct standard deviation.
+     */
     @Test
     public void shouldCalculateSD(){
         Assert.assertEquals(572.03, calculator.calculateStantardDeviation(linkedSet1),0);
