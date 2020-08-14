@@ -1,8 +1,6 @@
-package edu.escuelaing.arem.ASE.app;
+package edu.escuelaing.arem.ComplexSystems;
 
-import edu.escuelaing.arem.ASE.app.Node;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 /**
