@@ -1,4 +1,4 @@
-package edu.escuelaing.arem.ASE.app;
+package edu.escuelaing.arem.ComplexSystems;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,15 +10,15 @@ import java.util.Scanner;
  */
 public class FileReader {
     /**
-     * Main execution method to read a file given its name, and calculate the mean
+     * Method to read a file given its name, and calculate the mean
      * and standard deviation of the decimals read from the file.
      *
-     * @param args
+     * @param fileName
      */
-    public static void main(String[] args) {
+    public void read(String fileName) {
         try {
             Calculator calculator = new Calculator();
-            File file = new File(args[0]);
+            File file = new File(fileName);
             Scanner scanner = new Scanner(file);
 
             while (scanner.hasNextLine()){

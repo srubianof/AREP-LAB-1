@@ -37,7 +37,8 @@ Before you run the program please keep in mind that this program needs the name 
 For a proper execution of the project type in the terminal the following command:
 
 ```
-java -cp target/ComplexSystems-1.0-SNAPSHOT.jar edu.escuelaing.arem.ASE.app.FileReader "data.txt"
+java -cp target/ComplexSystems-1.0-SNAPSHOT.jar edu.escuelaing.arem.ComplexSystems.App "data.txt"
+
 ```
 
 ## Built With
